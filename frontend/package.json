@@ -1,28 +1,32 @@
 {
   "name": "frontend",
-  "version": "1.0.0",
-  "description": "frontend for voice buddy",
-  "main": "index.js",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/KRISHN-git/AI-Voice-Assistant.git"
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.17",
+    "axios": "^1.13.2",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "react-icons": "^5.5.0",
+    "react-router-dom": "^7.9.5",
+    "tailwindcss": "^4.1.17"
   },
-  "keywords": [
-    "[\"voice-assistant\"",
-    "\"ai\"",
-    "\"voice",
-    "buddy\"]"
-  ],
-  "author": "krishn kumar",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/KRISHN-git/AI-Voice-Assistant/issues"
-  },
-  "homepage": "https://github.com/KRISHN-git/AI-Voice-Assistant#readme"
+  "devDependencies": {
+    "@eslint/js": "^9.36.0",
+    "@types/react": "^19.1.16",
+    "@types/react-dom": "^19.1.9",
+    "@vitejs/plugin-react": "^5.0.4",
+    "eslint": "^9.36.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.22",
+    "globals": "^16.4.0",
+    "vite": "^7.1.7"
+  }
 }
