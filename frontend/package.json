@@ -1,0 +1,28 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "frontend for voice buddy",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KRISHN-git/AI-Voice-Assistant.git"
+  },
+  "keywords": [
+    "[\"voice-assistant\"",
+    "\"ai\"",
+    "\"voice",
+    "buddy\"]"
+  ],
+  "author": "krishn kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KRISHN-git/AI-Voice-Assistant/issues"
+  },
+  "homepage": "https://github.com/KRISHN-git/AI-Voice-Assistant#readme"
+}

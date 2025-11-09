@@ -1,0 +1,19 @@
+{
+  "name": "ai-voice-assistant",
+  "version": "1.0.0",
+  "description": "oice-Buddy is an AI-powered virtual assistant that uses voice commands to interact with the user.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KRISHN-git/AI-Voice-Assistant.git"
+  },
+  "author": "krishn kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KRISHN-git/AI-Voice-Assistant/issues"
+  },
+  "homepage": "https://github.com/KRISHN-git/AI-Voice-Assistant#readme"
+}
