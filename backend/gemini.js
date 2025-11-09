@@ -12,7 +12,7 @@ Your task is to understand the user's natural language input and respond with a 
   ,
   "userInput": "<original user input>" {only remove your name from userinput if exists} and agar kisi ne google ya youtube pe kuch search karne ko bola hai to userInput me only bo search baala text jaye,
 
-  "response": "<a short spoken response to read out loud to the user>"
+  "response": "<a medium spoken response to read out loud to the user>"
 }
 
 Instructions:
