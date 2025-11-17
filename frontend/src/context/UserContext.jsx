@@ -6,8 +6,8 @@ export const userDataContext = createContext()
 function UserContext({ children }) {
 
   const serverUrl = import.meta.env.MODE === "development"
-    ? "http://localhost:8000"
-    : "https://ai-voice-assistant1.onrender.com"
+  ? "http://localhost:8000"
+  : "https://ai-voice-assistant-xyf7.onrender.com";
 
   const [userData, setUserData] = useState(null)
   const [frontendImage, setFrontendImage] = useState(null)
